@@ -5,12 +5,14 @@
 }
 body{
   padding-top:  20px;
+  background-image: url(/img/spase-4.jpg);
 }
 .header{
   display: flex;
   justify-content: space-between;
   height: 100px;
   background: black;
+  margin-bottom: 30px;
 }
 .logo{
   display: flex;
@@ -24,9 +26,9 @@ h1{
   color: white;
   display: flex;
   align-items: center;
+  text-shadow: 0px 0px 30px white;
 }
 .menu-link{
-
   display: flex;
   align-items: center;
 }
@@ -34,11 +36,13 @@ h1{
   margin: 0px 10px;
   text-decoration: none;
   color: #fff;
+  text-shadow: 0px 0px 10px white;
 }
 .menu-button{
   background: #414a4c;
   margin-right: 43px;
   width: 100px;
+  border-radius: 100px;
 }
 .menu-button img{
   width: 60px;
@@ -48,8 +52,11 @@ h1{
 h4 {
   color: #fff;
   text-align: center;
+  text-shadow: 0px 0px 10px white;
 }
 main{
-    width: 1550px;
+    max-width: 1200px;
+    margin: auto;
     border: 2px solid #414a4c;
+    background: #414a4c;
 }
